@@ -1,0 +1,7 @@
+proposals/*
+!proposals/README.md
+research/*
+!research/README.md
+inbox/*
+!inbox/README.md
+.DS_Store

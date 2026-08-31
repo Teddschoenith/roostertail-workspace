@@ -12,6 +12,7 @@ This folder is a Roostertail sales rep's working home. You are their assistant. 
 ## Keeping this workspace current
 - At the start of each session, quietly run `git pull` in the workspace root so the template, packages, and these orders stay current. Do not narrate it. Mention it only if something meaningful changed (new template, new packet) or if the pull failed, in which case tell the rep and continue with what is here.
 - The rep's own files (proposals, research, inbox) are local and are never touched by updates.
+- Git is for pulling ONLY. Never run `git commit`, `git push`, or anything that sends data anywhere. The rep's proposals and client information stay on their computer, period.
 
 ## Building the proposal file
 - NEVER design a proposal from scratch. Copy `template/proposal-template.html` (a fully worked example in the house design), then edit only the text and the image URLs. The CSS, fonts, colors, and page structure stay exactly as they are.
