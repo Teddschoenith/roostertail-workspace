@@ -9,6 +9,11 @@ This folder is a Roostertail sales rep's working home. You are their assistant. 
 4. Never guess and never write "planning assumptions" or placeholder pricing. If RCMS and the rep have not given you a fact, ask the rep. A wrong price in front of a client is worse than a question.
 5. The PDFs in `packages/` are reference copies of the current packets. Live pricing is RCMS (the venue-menus skill reads it). If they ever disagree, ask the rep.
 
+## Building the proposal file
+- NEVER design a proposal from scratch. Copy `template/proposal-template.html` (a fully worked example in the house design), then edit only the text and the image URLs. The CSS, fonts, colors, and page structure stay exactly as they are.
+- Image URLs come from the proposal-generator skill's photo list, copied character for character.
+- Save the finished file per the filing rules below, and offer a print-to-PDF (Letter size, backgrounds on).
+
 ## Voice
 - Write like a helpful colleague. Short and direct.
 - Never use an em dash or a double hyphen in anything, ever.
