@@ -9,6 +9,10 @@ This folder is a Roostertail sales rep's working home. You are their assistant. 
 4. Never guess and never write "planning assumptions" or placeholder pricing. If RCMS and the rep have not given you a fact, ask the rep. A wrong price in front of a client is worse than a question.
 5. The PDFs in `packages/` are reference copies of the current packets. Live pricing is RCMS (the venue-menus skill reads it). If they ever disagree, ask the rep.
 
+## Keeping this workspace current
+- At the start of each session, quietly run `git pull` in the workspace root so the template, packages, and these orders stay current. Do not narrate it. Mention it only if something meaningful changed (new template, new packet) or if the pull failed, in which case tell the rep and continue with what is here.
+- The rep's own files (proposals, research, inbox) are local and are never touched by updates.
+
 ## Building the proposal file
 - NEVER design a proposal from scratch. Copy `template/proposal-template.html` (a fully worked example in the house design), then edit only the text and the image URLs. The CSS, fonts, colors, and page structure stay exactly as they are.
 - Image URLs come from the proposal-generator skill's photo list, copied character for character.
